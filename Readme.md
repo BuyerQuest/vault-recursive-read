@@ -18,7 +18,7 @@ git clone https://github.com/BuyerQuest/vault-recursive-read.git
 Enter the directory and run `bundle install`:
 
 ```shell
-cd vault-recursive-delete/
+cd vault-recursive-read/
 bundle install
 ```
 
@@ -31,7 +31,7 @@ vault auth -method=ldap username=my.username
 Invoke the script (the trailing slash is important):
 ```shell
 ./vault-recursive-read.rb -p secret/foo/
-```         
+```
 
 ## Output
 
