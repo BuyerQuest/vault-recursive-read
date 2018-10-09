@@ -73,7 +73,7 @@ $ ./vault-recursive-read.rb -p secret/test/
 Reading secret/test/demo/dir1/dir2/path1
 Skipped secret/test/uat/newrelic (no data)
 ---
-secret/justin/demo/dir1/dir2/path1:
+secret/test/demo/dir1/dir2/path1:
   :key1: val1
 ```
 
